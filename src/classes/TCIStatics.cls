@@ -31,6 +31,7 @@ public abstract class TCIStatics {
 	public static final String MAILINGSTATUS_NOT_CONFIRMED = 'Not Confirmed';
 
 	// driver validations
-	public static final String LICENSE_STATUS = 'Valid';
+	public static final String VALID_LICENSE_STATUS = 'Valid';
+	public static final String INVALID_LICENSE_STATUS = 'Invalid';
 
 }
