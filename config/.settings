@@ -1,0 +1,22 @@
+{
+    "projectName": "CSTCI",
+    "username": "cs@tciagency.info",
+    "id": "4b4813a0-d92d-11e7-a340-e525cfe90447",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://tci-agents-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\calvi\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomObject",
+        "EmailTemplate",
+        "Layout",
+        "PermissionSet",
+        "StaticResource",
+        "Workflow"
+    ]
+}

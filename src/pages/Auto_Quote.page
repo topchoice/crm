@@ -1,0 +1,9 @@
+<apex:page renderAs="pdf" showheader="false" sidebar="false" standardstylesheets="false" applybodyTag="false" applyhtmlTag="true" standardController="Policy__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Welcome to the Auto Quote Page</h1>
+  Please review the auto quote and make the necessary changes before printing.
+  <!-- End Default Content REMOVE THIS -->
+  
+  
+  
+</apex:page>

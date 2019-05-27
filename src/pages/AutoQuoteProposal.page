@@ -1,0 +1,28 @@
+<apex:page standardController="Contact" renderAs="pdf" applyBodyTag="false">
+    <head>
+        <style>
+            body { font-family: 'Arial Unicode MS'; }
+            .companyName { font: bold 30px; color: red; }
+        </style>
+    </head>
+    <body>
+        <center>    
+        <apex:panelGrid columns="1" width="100%">
+            <apex:outputText value="{!Contact.Name}" styleClass="FirstName"/>
+            <apex:outputText value="{!NOW()}"></apex:outputText>
+        </apex:panelGrid>
+        </center>
+        </body>
+
+        <apex:form >
+        <apex:pageBlock Title="Drivers">
+            <apex:pageBlockTable value="{!Contact.Drivers__r}" var="drivers">
+            <apex:column value="{!drivers.Name}"/>
+            <apex:column value="{!drivers.Drivers_License_Number__c}"/>
+            <apex:column value="{!drivers.Age__c}"/>
+            <apex:column value="{!drivers.DOB__c}"/>
+            <apex:inputField value="{!drivers.Gender__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        </apex:form>
+</apex:page>
