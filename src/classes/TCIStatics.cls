@@ -25,6 +25,7 @@ public abstract class TCIStatics {
 	public static final String RT_HOMEONWERS = 'Homeowners';
 	public static final String RT_COMMERCIAL = 'Commercial';
 
+
 	// address validations
 	public static final String MAILINGSTATUS_CONFIRMED = 'Confirmed';
 	public static final String MAILINGSTATUS_NOT_SUBMITTED = 'Not Submitted';
@@ -32,6 +33,5 @@ public abstract class TCIStatics {
 
 	// driver validations
 	public static final String VALID_LICENSE_STATUS = 'Valid';
-	public static final String INVALID_LICENSE_STATUS = 'Invalid';
 
 }
