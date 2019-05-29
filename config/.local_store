@@ -3518,5 +3518,21 @@
         "manageableState": "unmanaged",
         "type": "ApexTrigger",
         "mmState": "clean"
+    },
+    "AutoConvertLeads.cls": {
+        "id": "01p0H000008QJyFQAW",
+        "name": "AutoConvertLeads",
+        "createdDate": "2019-05-29T16:43:47.000+0000",
+        "createdById": "005i0000000ha3dAAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "005i0000000ha3dAAA",
+        "lastModifiedDate": "2019-05-29T18:19:29.000+0000",
+        "fullName": "AutoConvertLeads",
+        "fileName": "unpackaged/classes/AutoConvertLeads.cls",
+        "createdByName": "Calvin Bates",
+        "lastModifiedByName": "Calvin Bates",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
