@@ -15,7 +15,7 @@ global class ContactHandler {
             Last_Name__c = newCon.Spouse_Last_Name__c,
             Gender__c = 'Male',
             Name = newCon.Spouse_First_Name__c + ' ' + newCon.Spouse_Last_Name__c,
-            License_Status__c = TCIStatics.LICENSE_STATUS,
+            License_Status__c = TCIStatics.VALID_LICENSE_STATUS,
             Active__c = TCIStatics.STATUS_ACTIVE,
             Driver_Status__c = TCIStatics.DRIVER_STATUS_RATED));
         }
@@ -41,7 +41,7 @@ global class ContactHandler {
             Last_Name__c = contact.Spouse_Last_Name__c,
             Gender__c = 'Male',
             Name = contact.Spouse_First_Name__c + ' ' + contact.Spouse_Last_Name__c,
-            License_Status__c = TCIStatics.LICENSE_STATUS,
+            License_Status__c = TCIStatics.VALID_LICENSE_STATUS,
             Active__c = TCIStatics.STATUS_ACTIVE,
             Driver_Status__c = TCIStatics.DRIVER_STATUS_RATED));
         }
