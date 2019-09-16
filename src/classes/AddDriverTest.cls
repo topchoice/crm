@@ -2,7 +2,7 @@
 private class AddDriverTest {
 	
 	@isTest static void test_method_one() {
-		// Arrange another test
+		// Arrange test
 
 		// Act
 
