@@ -7,7 +7,6 @@ private class AddDriverTest {
 		// Act
 
 		// Assert
-	
 	}
 	
 	static TestMethod void test_method_oneA() { // only if needed
